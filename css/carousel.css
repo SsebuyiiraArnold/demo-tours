@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.slider {
+  position: relative;
+  width: 100vw; /* Full viewport width */
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.slide {
+  min-width: 100vw; /* Full viewport width for each slide */
+  position: relative;
+}
+
+.slide-image {
+  width: 100vw; /* Full width of the viewport */
+  height: 600px; /* Adjust height as needed */
+  object-fit: cover; /* Cover the entire container */
+}
+
+.text-content {
+  position: absolute;
+  top: 50%;
+  left: 120px;
+  transform: translateY(-50%);
+  color: white;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  max-width: 400px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.text-content.show {
+  opacity: 1; /* Make the text visible when this class is applied */
+}
+
+.text-content h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  opacity: 0;
+  animation: slideInLeft 1s ease 0.7s forwards;
+}
+
+.text-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 0;
+  animation: fadeUp 1s ease 1s forwards;
+}
+
+.chevrons {
+  position: absolute;
+  top: 50%;
+  width: 100%; /* Reduces the width by 80px to allow margin on both sides */
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 40px; /* Adds margin on the left and right */
+}
+
+.chevrons span {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.chevrons span:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+/* Apply styles to the first chevron (left arrow) */
+.chevrons span:nth-child(1) {
+  margin-left: 20px; /* 40px margin from the left */
+}
+
+/* Apply styles to the second chevron (right arrow) */
+.chevrons span:nth-child(2) {
+  margin-right: 20px; /* 40px margin from the right */
+}
+
+.dots {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+.dot:hover {
+  background-color: white;
+  transform: scale(1.2);
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,13 @@
+   function timepickers() {
+               
+
+                const dateTimePickerSettings = {
+                    datepicker: true,
+                    timepicker: true,
+                    format: 'Y-m-d H:m',
+                    readonly: true
+                };
+
+
+                $('input[role=datetime]').datetimepicker(dateTimePickerSettings).prop('readonly', true);
+        }

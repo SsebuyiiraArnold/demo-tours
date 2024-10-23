@@ -1,0 +1,1358 @@
+:root{
+    --e-global-color-primary: #0791BE;
+    --e-global-color-secondary: #101F46;
+    --e-global-color-text: #383838;
+    --e-global-color-accent: #ED7E00;
+    --e-global-color-fc28385: #2C75BA;
+    --e-global-color-fd2c51d: #0DA2FF;
+    --e-global-color-21bfb04: #FFFFFF;
+    --e-global-color-ad41708: #F8F8F8;
+    --e-global-color-57a29b1: #D9D9D9;
+    --e-global-color-d345fd2: #A7A7A7;
+    --e-global-color-08fcc9d: #787878;
+    --e-global-color-e5e9561: #151515;
+    --e-global-typography-primary-font-family: "Raleway";
+    --e-global-typography-primary-font-size: 80px;
+    --e-global-typography-primary-font-weight: 900;
+    --e-global-typography-primary-line-height: 1.1em;
+    --e-global-typography-secondary-font-family: "Open Sans";
+    --e-global-typography-secondary-font-size: 30px;
+    --e-global-typography-secondary-font-weight: 900;
+    --e-global-typography-secondary-line-height: 1.1em;
+    --e-global-typography-text-font-family: "Open Sans";
+    --e-global-typography-text-font-size: 15px;
+    --e-global-typography-text-line-height: 1.6em;
+    --e-global-typography-accent-font-family: "Open Sans";
+    --e-global-typography-accent-font-size: 15px;
+    --e-global-typography-accent-font-weight: 600;
+    --e-global-typography-accent-line-height: 1.3em;
+    --e-global-typography-61eed76-font-family: "Open Sans";
+    --e-global-typography-61eed76-font-size: 13px;
+    --e-global-typography-61eed76-font-weight: normal;
+    --e-global-typography-61eed76-line-height: 1.1em;
+    --e-global-typography-92b0a2d-font-family: "Raleway";
+    --e-global-typography-92b0a2d-font-size: 23px;
+    --e-global-typography-92b0a2d-font-weight: 700;
+    --e-global-typography-92b0a2d-line-height: 1.2em;
+    --e-global-typography-f500460-font-family: "Raleway";
+    --e-global-typography-f500460-font-size: 300px;
+    --e-global-typography-f500460-font-weight: 900;
+    --e-global-typography-f500460-line-height: 1em;
+    --e-global-typography-ba6914a-font-family: "Raleway";
+    --e-global-typography-ba6914a-font-size: 48px;
+    --e-global-typography-ba6914a-font-weight: 900;
+    --e-global-typography-ba6914a-line-height: 1.1em;
+    --e-global-typography-317d263-font-family: "Raleway";
+    --e-global-typography-317d263-font-size: 24px;
+    --e-global-typography-317d263-font-weight: 700;
+    --e-global-typography-317d263-line-height: 1.3em;
+    --e-global-typography-99dd0b2-font-family: "Raleway";
+    --e-global-typography-99dd0b2-font-size: 18px;
+    --e-global-typography-99dd0b2-font-weight: 700;
+    --e-global-typography-99dd0b2-line-height: 1.3em;
+    --e-global-typography-2bd9da1-font-family: "Raleway";
+    --e-global-typography-2bd9da1-font-size: 14px;
+    --e-global-typography-2bd9da1-font-weight: 500;
+    --e-global-typography-2bd9da1-line-height: 1.3em;
+    color: var( --e-global-color-text );
+    font-family: var( --e-global-typography-text-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-text-font-size );
+    line-height: var( --e-global-typography-text-line-height );
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: max-content;
+    background-color: #b5c178;
+    color: #383838;
+    line-height: 1.15em;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+main{
+    padding: 50px;
+    padding-top:0!important;
+    margin-top: -8px!important;
+}
+.section-about {
+    padding-top: -1px;
+    max-width: 100%;
+    margin: auto;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 10px; */
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.description1, .description2 {
+    padding: 10px;
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.more-form{
+    margin-bottom: 50px;
+}
+
+.more-form h2 {
+    text-align: center;
+    color: #101F46;
+    font-family: "Raleway", Sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 3em;
+
+}
+.more{
+    background-color: #f4f4f473;
+    padding-top: -1px;
+  
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.more span{
+   
+    color: #AD6C05;
+    font-family: "Raleway", Sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: lowercase;
+    font-style: italic;
+    line-height: 1.2em;
+   
+}
+.more p{
+    margin-block-start: 0;
+    margin-block-end: .9rem;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+    unicode-bidi: isolate;
+    line-height: 1.5em;
+    word-spacing: normal
+   
+}
+span {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+
+
+
+.button-container {
+    grid-column: span 2; /* Makes the button container span both columns */
+    text-align: center; /* Center the button */
+    /* margin: 20px 0;  */
+  
+    /* Adds space above the button */
+}
+
+.button-container button {
+    background-color: #a75d00; /* Button color */
+    color: white;
+    border: none;
+    padding: 4px;
+    margin: 0;
+    cursor: pointer;
+    width: 100%; /* Ensures the button fills the container */
+}
+
+
+label {
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid transparent;
+    outline: none !important;;
+    outline-offset: none !important;
+    outline-style: none !important;
+    outline-color: none !important;
+}
+
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    border-style: solid;
+    border-width: 1.2px;
+    border-color: #101F46;
+    padding: 10px;
+  
+  
+}
+
+/* img:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+} */
+
+.more h1{
+    text-align: center;
+    color: #101F46;
+    font-family: "Raleway", Sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+ h1.title,h2.title{
+    color: #101F46;
+    font-family: "Raleway", Sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+   
+}
+.grid-container .item{
+    background-color: #E19F2982;
+ 
+    line-height: normal;
+}
+.grid-container .item p {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding-top: 20px;
+       padding: 10px;
+       line-height: 1.6em;
+       font-size: 15px;
+    font-style: normal;
+  font-weight: 400;
+}
+
+
+
+
+.flex-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4f4f473;
+}
+.flex-item {
+    box-sizing: border-box;
+   
+}
+.image-section {
+    flex: 1 0 100%; 
+    max-width: 100%;
+}
+.image-section img{
+   height:100%; 
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.description-section {
+    flex: 1 0 100%;
+    max-width: 100%;
+    padding: 22px;
+    padding-top: 12px;
+    line-height: 1.5em;
+}
+
+
+@media (min-width: 600px) {
+    .image-section {
+        flex: 1 0 50%;
+    }
+    .description-section {
+        flex: 1 0 50%;
+    }
+}
+
+
+
+.h1{ 
+    color: #333C09;
+    font-family: "Raleway", Sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 1.2em;
+    text-transform: uppercase !important;
+
+}
+
+.tittle-ult-2{
+
+    color: var(--e-global-color-secondary);
+    font-family: "Raleway", Sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 2.3em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** TOP NAV STYLING ******/
+.top-nav-main {
+    background: #035A1C;
+    width: 100%;
+    height: 40px;
+}
+
+.top-nav-content {
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.top-nav-text {
+    /* margin-top: 10px; */
+    color: #fff;
+    padding: 12px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.top-nav-text i{
+ margin-right: 10px;
+ color: #07c33d;
+ font-size: 14px;
+}
+
+.top-nav-socials {
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.top-nav-socials i {
+    color: #d6d6d6;
+    margin-right: 10px;
+    padding: 8px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.top-nav-socials i:hover {
+   
+    border-radius: 5px;
+    background: #008eedbe;
+}
+
+/***** MAIN NAV STYLING ******/
+.nav-main {
+    background-color: rgb(8, 58, 19);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-main .header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    max-height: 80px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Navigation list styling */
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    position: relative;
+    /* margin: 0 20px; */
+}
+
+/* Links styling */
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: bold;
+    padding: 13px 8px !important;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-list a:hover {
+    color:#07c33d;
+  
+}
+.nav-list a.active{
+    background-color: #265e35;
+    color:#07c33d;
+}
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    margin-top: 12px;
+    width:max-content;
+    
+    min-width: 170px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    flex-direction: column;
+    
+}
+
+.dropdown-content a {
+    color: #fff;
+ 
+    padding-left: 30px !important;
+    text-decoration: none;
+    text-transform: none;
+    border-bottom: 1px dashed #ED7E00;
+}
+
+.dropdown-content a:last-child {
+    border: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #265e35;;
+    color: rgb(245, 245, 139);
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+/* Adjusting dropdown icon */
+
+
+/* Button styling */
+.nav-btn {
+    background-color: #ED7E00;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding:12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #ED7E00;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.nav-menu{
+    display: none;
+    background: #383838;
+    color: #ED7E00;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #ED7E00;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+
+}
+
+.nav-btn:hover {
+    background-color: #004d40;
+}
+
+/***** SIDEBAR STYLING ******/
+
+/* Sidebar container styling */
+.main-sidebar {
+    position: fixed;
+    background: #333;
+    right: -500px;
+    height: 100vh;
+    width: 337px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+}
+
+
+.sidebar {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px;
+    
+}
+/* Sidebar logo section */
+.sidebar-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+}
+
+.sidebar-header .sidebar-img {
+    max-height: 80px;
+    width: auto;
+    object-fit: cover;
+}
+
+/* Close button styling */
+.close-sidebar {
+    position: absolute;
+    top: 50px;
+    left: 276px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.close-sidebar i {
+    color: #ED7E00;
+    font-size: 45px;
+}
+
+/* Sidebar links */
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.sidebar-list li {
+    margin: 10px;
+    
+}
+
+.sidebar-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* Dropdown content in sidebar */
+.sidebar-dropdown .sidebar-content {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.sidebar-dropdown .sidebar-content a {
+    padding: 10px 0;
+    color: #ddd;
+}
+
+.sidebar-dropdown:hover .sidebar-content {
+    display: flex;
+}
+
+/* Sidebar social and contact section */
+.top-nav-main-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.top-nav-content-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top-nav-text-side {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+.top-nav-text-side i {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #12f142;
+
+    
+}
+
+.top-nav-socials-side {
+    display: flex;
+    margin-top: 10px;
+}
+
+.top-nav-socials-side i {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+.top-nav-socials-side i.facebook {
+    background-color: #3b5998;
+}
+
+.top-nav-socials-side i.twitter {
+    background-color: #1DA1F2;
+}
+
+.top-nav-socials-side i.youtube {
+    background-color: #FF0000;
+}
+
+.top-nav-socials-side i.instagram {
+    background-color: #C13584;
+}
+
+.top-nav-socials-side i.linkedin {
+    background-color: #0077B5;
+}
+
+.top-nav-socials-side i:hover {
+    opacity: 0.8;
+}
+
+
+
+@media (max-width: 768px) {
+    .top-nav-main {
+      display: none;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+    .nav-menu{
+        display: block;
+    }
+
+}
+
+
+/* FOOTER STYLING */
+
+.main-footer{
+    width: 100%;
+    height: max-content;
+    margin: 0;
+    bottom: 50px;
+    position: relative;
+    
+}
+
+.footer-container{
+    background: #333;
+    width: 100%;
+    height:fit-content;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible grid */
+  gap: 15px;
+
+}
+
+.footer-box{
+    padding: 25px;
+    color: #ffff;
+    
+}
+
+
+.foot-sub{
+    padding: 0px 0px 0px 10px;
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    border-color: #0077B5;
+    margin-bottom: 15px;
+
+}
+
+.footer-subhead{
+    font-size: 14px;
+    font-weight: 600;
+text-transform: uppercase;
+    color: #ED7E00;
+}
+
+/* .footer-list{
+    margin-left: 10px;
+
+} */
+
+.footer-list li{
+    /* margin-bottom: 10px; */
+    list-style: none;
+    border-bottom: 1px dashed #ED7E00;
+    transition: color 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+.footer-list li:hover{
+    color: #ED7E00;
+}
+
+.footer-text{
+    color: #c7c6c6;
+    margin-top: 15px;
+}
+
+.footer-text strong{
+    color: #d3d0d0;
+}
+
+.footer-list-contact{
+    /* margin-left: 10px; */
+}
+
+.footer-list-contact li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.footer-list-contact li i{
+    margin-right: 15px;
+}
+
+
+.footer-img img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    object-fit: cover;
+
+}
+
+.trip-advisor{
+    background: #FFF;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+
+.review{
+    color: #000;
+    padding-top: 10px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+.review-btn{
+    
+    background: #035A1C;
+    padding: 2px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* FOOTER STYLING END */
+
+
+
+
+.slider {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+display: flex;
+transition: transform 1s ease-in-out;
+}
+
+.slide {
+min-width: 100vw; /* Full viewport width for each slide */
+position: relative;
+}
+
+.slide-image {
+width: 100vw; /* Full width of the viewport */
+height: 500px; /* Adjust height as needed */
+object-fit: cover; /* Cover the entire container */
+}
+
+.text-content {
+position: absolute;
+top: 50%;
+left: 120px;
+transform: translateY(-50%);
+color: white;
+padding: 20px;
+/* background-color: rgba(0, 0, 0, 0.7); */
+border-radius: 10px;
+max-width: 70%;
+opacity: 0; /* Initially hidden */
+transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.text-content.show {
+opacity: 1; /* Make the text visible when this class is applied */
+}
+
+.text-content h2 {
+font-size: 70px;
+margin-bottom: 15px;
+font-weight: 800;
+line-height: 1.2em;
+opacity: 0;
+animation: slideInLeft 1s ease 0.7s forwards;
+}
+
+.text-content p {
+font-size: 18px;
+line-height: 1.5em;
+opacity: 0;
+animation: fadeUp 1s ease 1s forwards;
+}
+
+.chevrons {
+position: absolute;
+top: 50%;
+width: 100%; /* Reduces the width by 80px to allow margin on both sides */
+display: flex;
+justify-content: space-between;
+transform: translateY(-50%);
+padding: 0 40px; /* Adds margin on the left and right */
+}
+
+.chevrons span {
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+font-size: 20px;
+padding:15px 18px;
+border-radius: 50%;
+border: 2px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+margin-left: 0;
+}
+
+.chevrons span:hover {
+background-color: rgba(0, 0, 0, 0.8);
+transform: scale(1.1);
+}
+
+/* Apply styles to the first chevron (left arrow) */
+.chevrons span:nth-child(1) {
+margin-left: 20px; /* 40px margin from the left */
+}
+
+/* Apply styles to the second chevron (right arrow) */
+.chevrons span:nth-child(2) {
+margin-right: 20px; /* 40px margin from the right */
+}
+
+.dots {
+text-align: center;
+position: absolute;
+bottom: 20px;
+width: 100%;
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 5px;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 50%;
+display: inline-block;
+border: 2px solid white;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot.active {
+background-color: white;
+}
+
+.dot:hover {
+background-color: white;
+transform: scale(1.2);
+}
+
+/* Animations */
+@keyframes slideInLeft {
+    from {
+    opacity: 0;
+    transform: translateX(-100px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+@keyframes fadeUp {
+    from {
+    opacity: 0;
+    transform: translateY(50px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+
+/* packeges */
+
+.sofdas-packages, .sofdas-packages-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Default to 1 column for mobile */
+    gap: 20px; /* Space between child divs */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 600px) {
+    .sofdas-packages , .sofdas-packages-2{
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+
+}
+
+/* Large devices (desktops) */
+@media (min-width: 900px) {
+    .sofdas-packages {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    }
+}
+
+/* Extra large devices (larger desktops) */
+@media (min-width: 1200px) {
+    .sofdas-packages {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    }
+    .sofdas-packages-2 {
+        grid-template-columns: repeat(3, 1fr); /* 4 columns */
+    }
+}
+
+.sofdas-package-item {
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 500px; /* Adjust this height based on your design */
+    justify-content: space-between; /* Ensure elements are spaced out with button at the bottom */
+}
+
+.sofdas-package-item img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sofdas-package-item .sofdas-location-time {
+    margin: -20px 30px 0px 30px;
+    padding: 13px;
+    align-items: center;
+    justify-content: center;
+    background-color: #333C09;
+    color: #fff;
+    font-size: 12px;
+    gap: 8px;
+    line-height: normal;
+    display: flex;
+    border-radius: 5px;
+}
+
+
+.sofdas-package-item .sofdas-title {
+    color: #101f46;
+    font-family: "Raleway", Sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: start;
+    line-height: 1.2em;
+    margin-top: 18px;
+    margin-left: auto;
+    transition: color 0.3s ease;
+    padding: 0 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sofdas-package-item .sofdas-title:hover {
+    text-decoration: none;
+}
+
+.sofdas-package-item .sofdas-description {
+    text-align: left;
+    color: #333;
+    line-height: 1.8em;
+    padding: 0px 25px 15px;
+}
+
+.separator {
+    margin: 0;
+    width: 1.3px;
+    height: 12px;
+    background-color: #ddd;
+}
+
+.button-container {
+    margin-top: auto; /* Pushes the button container to the bottom */
+    padding: 12px 10px 30px;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform .4s;
+}
+
+a.button {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #AD6C05;
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+    line-height: var(--e-global-typography-accent-line-height);
+    color: var(--e-global-color-21bfb04);
+    border-style: solid;
+    border-color: var(--e-global-color-primary);
+    border-radius: 0px;
+    padding: 11px 30px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+a.button:hover {
+    background-color: #974B03;
+    text-decoration: underline;
+}
+
+
+.sofdas-star-rating__wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+}
+
+.sofdas-star-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between stars and text */
+}
+
+.sofdas-star-rating i {
+    color: #FF7400; /* Gold color for stars */
+    font-size: 14px; /* Adjust star size */
+    transition: color 0.3s ease;
+}
+
+.sofdas-star-rating i:hover,
+.sofdas-star-rating i:hover ~ i {
+    color: #FFED85; /* Lighter shade on hover */
+}
+
+.sofdas-rating-value {
+    font-size: 12px;
+    color: #333;
+    margin-left: 8px; /* Space between stars and rating value */
+}
+
+.sofdas-star-rating__title {
+    font-size: 12px;
+    color: #333;
+    margin-left: 8px; /* Space between rating value and reviews */
+}
+
+.sofdas-safari-container-2{
+display: flex;
+padding: 0;
+align-items: center;
+}
+.sofdas-safari-container-2 a{
+       font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    fill: #FFFFFF;
+    max-width: 300px;
+   margin: auto;
+  
+    padding: 18px;
+    color: #FFFFFF;
+    background-color: #59B200;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #333C09;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.sofdas-safari-section {
+    background-color: #dfe8ae;
+    padding: 40px;
+}
+
+.sofdas-safari-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #f2f5d0;
+}
+
+.sofdas-content {
+    flex: 1;
+    padding: 20px;
+   
+}
+
+.sofdas-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #08275c;
+    padding-left: 20px;
+}
+
+.sofdas-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #333;
+}
+
+.sofdas-image-wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sofdas-image-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   
+}
+
+/* Floating button on image */
+.sofdas-button {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 30px;
+    background-color: #a7b384;
+    color: #233F0D;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    background-color: #B8C384;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #233F0D;
+}
+
+.sofdas-button:hover {
+    background-color: #81916d;
+}
+
+@media screen and (max-width: 920px) {
+    .sofdas-safari-container {
+        flex-direction: column-reverse;
+    }
+
+    .sofdas-heading {
+        font-size: 1.8rem;
+    }
+
+    .sofdas-description {
+        font-size: 0.9rem;
+    }
+
+    .sofdas-image-wrapper img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sofdas-button {
+        bottom: 10px;
+        padding: 8px 20px;
+        font-size: 1rem;
+    }
+}
+
+
+.sofdas-size-default {
+    color: var(--e-global-color-secondary);
+    font-family: "Raleway", Sans-serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.1em;
+}
+.sofdas-widget-container p{
+
+    margin: 0;
+    padding: 50px;
+    font-weight: 400;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.sofdas-post-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 posts on large screens */
+    gap: 16px; /* Space between items */
+}
+
+.sofdas-post h5,.sofdas-post h5 a {
+    text-align: center; 
+    color: #101F46;
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2.2em;
+
+}
+
+.sofdas-post img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.sofdas-read-more {
+    display: inline-block;
+    background-color: #b98a00; 
+    color: white; 
+    width: 100%;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #AD6C05;
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+    line-height: var(--e-global-typography-accent-line-height);
+    color: var(--e-global-color-21bfb04);
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: var(--e-global-color-primary);
+    border-radius: 0px 0px 0px 0px;
+    padding: 11px 30px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .sofdas-post-content {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 600px) {
+    .sofdas-post-content {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.sofdas-post-content{
+    padding-bottom: 50px;
+}

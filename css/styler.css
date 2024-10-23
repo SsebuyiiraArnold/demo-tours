@@ -1,0 +1,264 @@
+
+.container{
+    width: 100%;
+    top: 50%;
+}
+.bannerz{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.txt-ban{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+/* about us sect */
+
+.container{
+    display: block;
+    width: auto;
+    margin: auto 10%;
+    text-align: center;
+    position: relative;
+}
+
+.deck{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.sect1{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.about-title{
+    display: block;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+    
+}
+
+.about-title .title1{
+    text-align: left;
+    padding-bottom: 2%;
+    margin: auto;
+}
+
+.about-title .title2{
+    text-align: left;
+    padding: 1%;
+    margin: auto;
+}
+
+.para{
+    text-align: justify;
+    font-size: medium;
+}
+
+.sect2{
+    position: absolute;
+    width: 50%;
+    top: 60%;
+    left: 25%;
+    transform: translate(50%, -50%);
+}
+
+.youtube-ifr .head1{
+    padding-bottom: 4%;
+    padding-left:0% ;
+    height: 1em;
+    /* border-left: 4px solid grey; */
+    
+
+}
+
+.travel-container{
+    display: block;
+    width: 100;
+    margin: auto 10%;
+    padding: 3%;
+}
+
+.travel-deck{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    width: auto;
+    padding: 0;
+    column-gap: 5%;
+}
+
+.travel-title{
+    grid-column: 1 / 4;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.travel-img{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 100%;
+    overflow: hidden;
+}
+
+.travel-img img{
+    width: 100%;
+    height: 190%;
+}
+
+.travel-service{
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+}
+
+.travel-service .service-title{
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+.travel-price{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    width: 100%;
+}
+
+.travel-price .price-title{
+    padding-top: 0;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.travel-sust{
+    grid-column: 2 / 3;
+    grid-row: 2.5 / 4;
+}
+
+.travel-sust .sust-title{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.travel-best{
+    grid-column: 3 / 4;
+    grid-row: 2.5 / 4;
+}
+
+.travel-best .best-title{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 100%;
+}
+
+.trav-container{
+    overflow-y: hidden;
+    display: block;
+    padding: 0;
+    margin: auto 10%;
+}
+
+.trav-deck{
+    width: 100%;
+    text-align: justify;
+}
+
+.mission > .mission-title{
+    font-size: 01em;
+    font-weight: 100;
+    padding-bottom: 2.5%;
+    
+}
+
+.mission-para{
+    padding-bottom: 2%;
+}
+
+.talent > .talent-title{
+    font-size: 01em;
+    font-weight: 100;
+    padding-bottom: 2.5%;
+}
+
+.talent-para{
+    padding-bottom: 2%;
+}
+
+.tour > .tour-title{
+    font-size: 01em;
+    font-weight: 100;
+    padding-bottom: 2.5%;
+}
+
+.tour-para{
+    padding-bottom: 2%;
+}
+
+/* SAFARI VEHICLES */
+
+.safari-vehicles{
+    display: block;
+    padding: 5% 0;
+    margin: auto 10%;
+    width: 100%;
+}
+
+.safa-deck{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 3%;
+}
+
+.safa-head{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding-bottom: 3%;
+}
+
+.safa-para{
+    grid-column: 1 / 1;
+    grid-row: 1.5 / 3;
+    width: 80%;
+   
+}
+
+.safa-image{
+    grid-column: 1.1 / 4;
+    grid-row: 1.5 / 3;
+    width: 70%;
+    margin-left: -20%;
+}
+
+.safa-image img{
+    width: 100%;
+    height: auto;
+}
+
+.button{
+    display: block;
+    background-color: limegreen;
+    color: white;
+
+}
+
+.button button{
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 3%;
+}
