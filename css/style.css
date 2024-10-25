@@ -78,6 +78,7 @@ html, body{
     color: #383838;
     line-height: 1.15em;
     -webkit-text-size-adjust: 100%;
+
 }
 body {
     font-family: "Open Sans", sans-serif;
@@ -89,6 +90,7 @@ main{
     padding: 50px;
     padding-top:0!important;
     margin-top: -8px!important;
+    flex: 1;
 }
 .section-about {
     padding-top: -1px;
@@ -713,8 +715,9 @@ select {
     width: 100%;
     height: max-content;
     margin: 0;
-    bottom: 50px;
+    bottom: 0;
     position: relative;
+    overflow-y: hidden;
     
 }
 
@@ -725,6 +728,7 @@ select {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible grid */
   gap: 15px;
+  line-height: 35px;
 
 }
 
