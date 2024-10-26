@@ -1087,7 +1087,7 @@ div.bannerz{
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    height: 50vh;
+    /* height: 50vh; */
     z-index: 50;
     padding-bottom: 10%;
 }
