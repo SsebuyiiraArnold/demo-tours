@@ -1082,13 +1082,13 @@ div.bannerz{
 .counter-captions {
     display: block;
     margin: auto;
-    width: 100vh;
+    width: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/packeges/76tyghj.png') !important;    
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    height: 100vh;
+    height: 50vh;
     z-index: 50;
     padding-bottom: 10%;
 }
