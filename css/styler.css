@@ -350,8 +350,7 @@ div.bannerz{
         display: block;
         flex-direction: column;
         width: 100;
-        margin: auto 5%;
-        margin-top: 15%;
+        margin: 15 5%;
         padding: 3%;
     }
     .travel-deck{
@@ -676,6 +675,7 @@ div.bannerz{
         font-weight: 100;
         padding-bottom: 2.5%;
         margin-bottom: 25px;
+        word-spacing: normal;
         color: #101F46;
     }
     .mission{
@@ -690,6 +690,7 @@ div.bannerz{
         font-size: 80%;
         font-weight: 100;
         margin-bottom: 25px;
+        word-spacing: normal;
         padding-bottom: 2.5%;
         color: #101F46;
     }
@@ -706,6 +707,7 @@ div.bannerz{
         font-weight: 100;
         margin-bottom: 25px;
         padding-bottom: 2.5%;
+        word-spacing: normal;
         color: #101F46;
     }
 
