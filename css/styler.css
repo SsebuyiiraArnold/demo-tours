@@ -1345,3 +1345,1119 @@ div.bannerz{
     }
     
 }
+
+
+/* PAGE2 DESIGN (UGANDA SAFARIS)*/
+div.uganda-banz{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/packeges/ew42e4sdde.jpg') !important;    
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-bottom: 20%; */
+    z-index: 1000;
+}
+
+.uga-ban{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: x-large;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.description{
+    display: block;
+    width: 100%;
+    margin: 5% 10%;
+    padding: 0;
+}
+
+.description .pearl{
+    width: auto;
+    padding: 4px;
+    margin-right:20%;
+}
+.pearl h1{
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pearl p{
+    text-align: justify;
+    margin: auto;
+}
+
+.ancor{
+    color: #333C09;
+    font-weight: bolder;
+}
+
+/* UGANDA SAFARI PACKAGES */
+.safari-packeges{
+    display: block;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.safa-heading{
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.packeges-deck{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+}
+.packeges-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* gap: -14%; */
+}
+
+.card-pack1{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+    width: 80vh;
+    background-color: #fff;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.pack-img{
+    grid-column: 1 / 2;
+    grid-row: 1 / 7;
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+.pack-img img{
+    width: 40vh;
+    height: 70vh;
+    margin-bottom: -4px;
+}
+
+.pack-content{
+    grid-column: 3 / 5;
+    grid-row: 1 / 7;
+    display: flex;
+    flex-direction: column;
+    width: 45vh;
+    padding: 5%;
+    width: auto;
+}
+
+.content-heading{
+    margin-bottom: 5%;
+}
+.content-heading h1{
+    display: inline;
+    line-height: 100%;
+}
+
+.content-reviews{
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 600px){
+    .uga-ban{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        line-height: 150%;
+        font-size: larger;
+        transform: translate(-50%, -50%);
+        color: white;
+    
+    }
+    .pearl h1{
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .safari-packeges{
+        display: block;
+        width: 100%;
+        margin: 15% 5%;
+    }
+    .safa-heading{
+        display: inline-block;
+        text-align: justify;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        line-height: 100%;
+        font-size: 25px;
+    }
+    .packeges-deck{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100vw;
+    }
+    .packeges-cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: -14%;
+    }
+    
+    .card-pack1{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(6, auto);
+        width: 90vw;
+        background-color: #fff;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .pack-img{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .pack-img img{
+        width: 90vw;
+        height: 70vh;
+        margin-bottom: -4px;
+    }
+    
+    .pack-content{
+        grid-column: 1 / 4;
+        grid-row: 3 / 7;
+        display: flex;
+        flex-direction: column;
+        width: 45vh;
+        padding: 5%;
+        width: auto;
+    }
+    
+    .content-heading{
+        margin-bottom: 5%;
+        text-decoration: none;
+
+    }
+    .content-heading h1{
+        display: inline;
+        line-height: 100%;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .content-reviews{
+        margin-bottom: 5%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width:992px){
+    .uga-ban{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        line-height: 150%;
+        font-size: larger;
+        transform: translate(-50%, -50%);
+        color: white;
+    
+    }
+    .pearl h1{
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .safari-packeges{
+        display: block;
+        width: 100%;
+        margin: 15% 5%;
+    }
+    .safa-heading{
+        display: inline-block;
+        text-align: justify;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        line-height: 100%;
+        font-size: 25px;
+    }
+    .packeges-deck{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+        text-align: center;
+    }
+    .packeges-cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: -14%;
+    }
+    
+    .card-pack1{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(6, auto);
+        width: 90vw;
+        background-color: #fff;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .pack-img{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .pack-img img{
+        width: 90vw;
+        height: 70vh;
+        margin-bottom: -4px;
+    }
+    
+    .pack-content{
+        grid-column: 1 / 4;
+        grid-row: 3 / 7;
+        display: flex;
+        flex-direction: column;
+        width: 45vh;
+        padding: 5%;
+        width: auto;
+    }
+    
+    .content-heading{
+        margin-bottom: 5%;
+        text-decoration: none;
+        text-align: left;
+
+    }
+    .content-heading h1{
+        display: inline;
+        line-height: 100%;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .content-reviews{
+        margin-bottom: 5%;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .content-descrip p{
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width:1300px){
+    .uga-ban{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        line-height: 150%;
+        font-size: larger;
+        transform: translate(-50%, -50%);
+        color: white;
+    
+    }
+    .pearl h1{
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .safari-packeges{
+        display: block;
+        width: 100%;
+        margin: 15% 5%;
+    }
+    .safa-heading{
+        display: inline-block;
+        text-align: justify;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        line-height: 100%;
+        font-size: 25px;
+    }
+    .packeges-deck{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+        text-align: center;
+    }
+    .packeges-cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: -14%;
+    }
+    
+    .card-pack1{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(6, auto);
+        width: 90vw;
+        background-color: #fff;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .pack-img{
+        grid-column: 1 / 2;
+        grid-row: 1 / 6;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .pack-img img{
+        width: 45vw;
+        height: 70vh;
+        margin-bottom: -4px;
+    }
+    
+    .pack-content{
+        grid-column: 3 / 4;
+        grid-row: 1 / 6;
+        display: flex;
+        flex-direction: column;
+        width: 45vh;
+        padding: 5%;
+        width: auto;
+    }
+    
+    .content-heading{
+        margin-bottom: 5%;
+        text-decoration: none;
+        text-align: left;
+
+    }
+    .content-heading h1{
+        display: inline;
+        line-height: 100%;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .content-reviews{
+        margin-bottom: 5%;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .content-descrip p{
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 1301px){
+    .safa-heading{
+        display: block;
+        text-align: center;
+        margin-bottom: 5%;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    .packeges-deck{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100vw;
+    }
+    .packeges-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 0;
+    }
+    
+    .card-pack1{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(6, auto);
+        width: 40vw;
+        background-color: #fff;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .pack-img{
+        grid-column: 1 / 2;
+        grid-row: 1 / 7;
+        width: 50%;
+        margin-bottom: 0px;
+    }
+    
+    .pack-img img{
+        width: 20vw;
+        height: 70vh;
+        margin-bottom: -4px;
+    }
+    
+    .pack-content{
+        grid-column: 3 / 5;
+        grid-row: 1 / 7;
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        /* padding: 15%; */
+        margin-bottom: -7px;
+        width: auto;
+    }
+    
+    .content-heading{
+        margin-bottom: 5%;
+    }
+    .content-heading h1{
+        display: inline;
+        line-height: 100%;
+        font-size: 25px;
+    }
+    
+    .content-reviews{
+        margin-bottom: 5%;
+        font-size: 13px;
+    }
+}
+
+/* BLOG */
+.blog-container{
+    display: block;
+    /* margin: 5% 10%; */
+    padding: 0;
+}
+
+.blog-deck{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin: auto;
+}
+
+.blog-card{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 3%;
+    border-radius: 10px;
+    width: 90vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 3%;
+    padding-left: 3%;
+    box-shadow: 4px 4px 98px rgba(0, 0, 0, 0.3);
+}
+
+.blog-card-image{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 40vw;
+}
+
+.blog-card-image img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 98px rgba(0, 0, 0, 0.3);
+}
+
+.blog-card-content{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card-content h1{
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.blog-card-content p{
+    display: block;
+    text-align: justify;
+    /* margin: auto; */
+}
+
+@media only screen and (max-width: 600px){
+    .blog-container{
+        display: block;
+        padding: 0;
+    }
+    
+    .blog-deck{
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        margin: auto;
+    }
+    
+    .blog-card{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 90vw;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 3%;
+        padding-left: 3%;
+        box-shadow: 4px 4px 98px rgba(0, 0, 0, 0.3);
+    }
+    
+    .blog-card-image{
+        width: 80vw;
+    }
+    
+    .blog-card-image img{
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 98px rgba(0, 0, 0, 0.3);
+    }
+    
+    .blog-card-content{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blog-card-content h1{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: 35px;
+        text-transform: uppercase;
+        line-height: 100%;
+    }
+    
+    .blog-card-content p{
+        display: block;
+        text-align: justify;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width:768px){
+    .blog-container{
+        display: block;
+        padding: 0;
+    }
+    
+    .blog-deck{
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        margin: auto;
+    }
+    
+    .blog-card{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 90vw;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 3%;
+        padding-left: 3%;
+        box-shadow: 4px 4px 98px rgba(0, 0, 0, 0.3);
+    }
+    
+    .blog-card-image{
+        width: 80vw;
+    }
+    
+    .blog-card-image img{
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 98px rgba(0, 0, 0, 0.3);
+    }
+    
+    .blog-card-content{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blog-card-content h1{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: 35px;
+        text-transform: uppercase;
+        line-height: 100%;
+    }
+    
+    .blog-card-content p{
+        display: block;
+        text-align: justify;
+        padding-bottom: 50px;
+    }
+}
+
+.contact-container{
+    display: block;
+    background-color: white;
+    margin: 0, 0;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.contact-deck{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+    gap: 3%;
+}
+
+.contact-form{
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.get-border{
+    width: 100%;
+    background-color:  #b5c178;
+    padding: 2%;
+    margin: 3%;
+    position: relative;
+    
+}
+
+.get-border::before {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    left: 0;
+    width: 30%; 
+    height: 1px;
+    background-color: #333C09; 
+    transform: translateY(-50%); 
+  }
+
+  .form-heading h1{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 1000;
+    margin: 2%;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: left;
+  }
+
+  .form-heading p{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+  }
+
+  .formPik input{
+    border: 1px solid rgb(138, 136, 136);
+    margin-bottom: 2%;
+    margin-left: 2%;
+  }
+
+  .formPik textarea{
+    display: block;
+    width: 100%;
+    margin-left: 2%;
+    height: 50%;
+    padding: 2%;
+  }
+
+  .submit-btn{
+    display: block;
+    background-color: #333C09;
+    padding: 3%;
+    color: white;
+    margin-left: 2%;
+    margin-top: 5%;
+    border: #333C09;
+    width: 50%;
+  }
+
+  .comment-sect{
+    margin-top: 45%;
+    display: block;
+    
+  }
+
+  .comment-sect h3{
+    color: #101F46;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+
+  .comment-sect p{
+    text-align: left;
+    margin-bottom: 5%;
+  }
+
+  .tags{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: left;
+  }
+
+  .tag{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 5%;
+  }
+
+  #tagger{
+    grid-column: 1 / 2;
+    background-color: #333C09;
+    color: white;
+    font-size: 25px;
+    padding: 2%;
+    padding-top: 10px;
+    width: 10%;
+    /* transform: translateY(-50%) !important; */
+    height: 180%;
+  }
+  .tagger-cont{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .contact-socials{
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+    padding: 0%;
+  }
+  .contact-socials h2{
+    text-transform: capitalize;
+    color: #101F46;
+    text-align: left;
+    margin-bottom: 4%;
+  }
+
+  .socials-deck{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    gap: 10px;
+  }
+
+  .social {
+    border: 1px solid #333C09;
+    padding: 5%;
+    width: 5%;
+    height: auto;
+    margin-top: -3%;
+    margin-left: -2%;
+    margin-right: 3%;
+  }
+
+  .social i{
+    font-size: 20px;
+    transform: translate(-50%, -15%);
+  }
+
+  .map{
+    display: block;
+    margin: auto;
+    padding: 0;
+  }
+
+  @media only screen and (max-width: 600px){
+    .contact-deck{
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    
+    .get-border{
+        width: 100%;
+        background-color:  #b5c178;
+        padding: 2%;
+        margin: 1%;
+        position: relative;
+        font-size: 10px;
+        
+    }
+    
+    .get-border::before {
+        content: "";
+        position: absolute;
+        top: 50%; 
+        left: 0;
+        width: 30%; 
+        height: 1px;
+        background-color: #333C09; 
+        transform: translateY(-50%); 
+      }
+    
+      .form-heading h1{
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 1000;
+        margin: 2%;
+        color: #101F46;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: left;
+      }
+    
+      .formPik textarea{
+        display: block;
+        width: 100%;
+        margin-left: 2%;
+        height: 100%;
+        padding: 2%;
+      }
+    
+      .submit-btn{
+        display: block;
+        background-color: #333C09;
+        padding: 3%;
+        color: white;
+        margin-left: 2%;
+        margin-top: 5%;
+        border: #333C09;
+        width: 100%;
+      }
+    
+      .contact-left{
+        margin-top: -35%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+      .comment-sect{
+        margin-top: 45%;
+        display: block;
+        
+      }
+    
+      .comment-sect h3{
+        color: #101F46;
+        margin-bottom: 5%;
+        text-align: left;
+      }
+    
+      .comment-sect p{
+        text-align: left;
+        margin-bottom: 5%;
+      }
+    
+      .tagz{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(0%);
+        text-align: center;
+
+    }
+    
+      .tag{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5%;
+      }
+    
+      #tagger{
+        background-color: #333C09;
+        color: white;
+        font-size: 25px;
+        padding: 2%;
+        padding-top: 10px;
+        width: 10%;
+        height: 180%;
+      }
+      .tagger-cont{
+        margin-top: 10px;
+        text-align: center;
+      }
+    
+  }
+
+  @media only screen and (min-width: 601px) and (max-width:992px){
+    .contact-deck{
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    
+    .get-border{
+        width: 100%;
+        background-color:  #b5c178;
+        padding: 2%;
+        margin: 1%;
+        position: relative;
+        font-size: 10px;
+        
+    }
+    
+    .get-border::before {
+        content: "";
+        position: absolute;
+        top: 50%; 
+        left: 0;
+        width: 30%; 
+        height: 1px;
+        background-color: #333C09; 
+        transform: translateY(-50%); 
+      }
+    
+      .form-heading h1{
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 1000;
+        margin: 2%;
+        color: #101F46;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: left;
+      }
+    
+      .formPik textarea{
+        display: block;
+        width: 100%;
+        margin-left: 2%;
+        height: 100%;
+        padding: 2%;
+      }
+    
+      .submit-btn{
+        display: block;
+        background-color: #333C09;
+        padding: 3%;
+        color: white;
+        margin-left: 2%;
+        margin-top: 5%;
+        border: #333C09;
+        width: 100%;
+      }
+    
+      .contact-left{
+        margin-top: -35%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+      .comment-sect{
+        margin-top: 45%;
+        display: block;
+        
+      }
+    
+      .comment-sect h3{
+        color: #101F46;
+        margin-bottom: 5%;
+        text-align: left;
+      }
+    
+      .comment-sect p{
+        text-align: left;
+        margin-bottom: 5%;
+      }
+    
+      .tagz{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-33%);
+        text-align: center;
+
+    }
+    
+      .tag{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5%;
+      }
+    
+      #tagger{
+        background-color: #333C09;
+        color: white;
+        font-size: 25px;
+        padding: 2%;
+        padding-top: 10px;
+        width: 10%;
+        height: 180%;
+      }
+      .tagger-cont{
+        margin-top: 10px;
+        text-align: left;
+      }
+  }
+
+  /* gorilla safaris */
+  /* gorilla treks */
+  .gorilla-container{
+    display: block;
+    background-color: white;
+    width: 100vw;
+   
+    margin: 0;
+  }
+
+  .gorilla-info{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+  /* gorilla cost */
+  .cost-info p{
+    display: block;
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
