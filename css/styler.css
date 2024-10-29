@@ -1471,7 +1471,10 @@ div.uganda-banz{
     width: 80vh;
     background-color: #fff;
     margin-right: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 12%;
+}
+.card-pack1:last-child{
+    margin-bottom: 0px;
 }
 
 .pack-img{
@@ -1658,8 +1661,24 @@ div.goril-banz{
         color: white;
     
     }
-
+    .ken-ban{
+        line-height: 150%;
+        font-size: x-large;
+    }
+    .tz-ban{
+        line-height: 150%;
+        font-size: x-large;
+    }
+    .rwa-ban{
+        line-height: 150%;
+        font-size: x-large;
+    }
     .gor-ban{
+        line-height: 150%;
+        font-size: x-large;
+    }
+
+    .saf-ban{
         line-height: 150%;
         font-size: x-large;
     }
