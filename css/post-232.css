@@ -1,0 +1,122 @@
+.elementor-232 .elementor-element.elementor-element-5427ef6a:not(.elementor-motion-effects-element-type-background),
+.elementor-232 .elementor-element.elementor-element-5427ef6a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("../images/Seregneti.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-232 .elementor-element.elementor-element-5427ef6a>.elementor-background-overlay {
+    background-color: var(--e-global-color-e5e9561);
+    opacity: 0.65;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-232 .elementor-element.elementor-element-5427ef6a {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -185px;
+    margin-bottom: 0px;
+    padding: 258px 15px 175px 15px;
+}
+
+.elementor-232 .elementor-element.elementor-element-4827faa9>.elementor-widget-container {
+    margin: 0px 100px 0px 100px;
+}
+
+.elementor-232 .elementor-element.elementor-element-4827faa9 {
+    text-align: center;
+}
+
+.elementor-232 .elementor-element.elementor-element-4827faa9 .elementor-heading-title {
+    color: var(--e-global-color-21bfb04);
+    z-index: 999;
+    margin-top: 90px;
+}
+
+.elementor-232 .elementor-element.elementor-element-1714156:not(.elementor-motion-effects-element-type-background),
+.elementor-232 .elementor-element.elementor-element-1714156>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #B8C384;
+}
+
+.elementor-232 .elementor-element.elementor-element-1714156 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-232 .elementor-element.elementor-element-1714156>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-blog-block-post,
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-image-card,
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-card {
+    background-color: #B8C384;
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-blog-block-post>.row {
+    align-items: flex-start;
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .post-meta-list {
+    text-align: left;
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-body .entry-title a {
+    color: var(--e-global-color-e5e9561);
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-entry-header .entry-title a {
+    color: var(--e-global-color-e5e9561);
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-body .entry-title {
+    text-align: left;
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-entry-header .entry-title {
+    text-align: left;
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-footer>p {
+    color: var(--e-global-color-e5e9561);
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-body>p {
+    color: var(--e-global-color-e5e9561);
+    text-align: left;
+}
+
+.elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-footer {
+    text-align: left;
+}
+
+@media(max-width:1024px) {
+    .elementor-232 .elementor-element.elementor-element-5427ef6a {
+        margin-top: -165px;
+        margin-bottom: 0px;
+        padding: 242px 15px 177px 15px;
+    }
+
+    .elementor-232 .elementor-element.elementor-element-4827faa9>.elementor-widget-container {
+        margin: 0px 0px 5px 0px;
+    }
+
+    .elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-blog-block-post,
+    .elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-image-card,
+    .elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-card {
+        margin: 0px 0px 30px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-232 .elementor-element.elementor-element-5427ef6a {
+        margin-top: -265px;
+        margin-bottom: 0px;
+        padding: 344px 15px 175px 15px;
+    }
+
+    .elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-blog-block-post,
+    .elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-image-card,
+    .elementor-232 .elementor-element.elementor-element-5e584a5 .elementskit-post-card {
+        margin: 0px 0px 30px 0px;
+    }
+}

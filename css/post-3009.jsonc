@@ -1,0 +1,114 @@
+.elementor-3009 .elementor-element.elementor-element-4fce4d70:not(.elementor-motion-effects-element-type-background), .elementor-3009 .elementor-element.elementor-element-4fce4d70 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.trionsafaris.com/wp-content/uploads/2023/02/Safari-Car-Rentals-in-entebbe-1400x600-1.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3009 .elementor-element.elementor-element-4fce4d70 > .elementor-background-overlay {
+    background-color: var( --e-global-color-e5e9561 );
+    opacity: 0.65;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-3009 .elementor-element.elementor-element-4fce4d70 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -185px;
+    margin-bottom: 0px;
+    padding: 258px 15px 165px 15px;
+}
+
+.elementor-3009 .elementor-element.elementor-element-3e6abc8 > .elementor-widget-container {
+    margin: 0px 100px 0px 100px;
+}
+
+.elementor-3009 .elementor-element.elementor-element-3e6abc8 {
+    text-align: center;
+}
+
+.elementor-3009 .elementor-element.elementor-element-3e6abc8 .elementor-heading-title {
+    color: var( --e-global-color-21bfb04 );
+}
+
+.elementor-3009 .elementor-element.elementor-element-0e390ed {
+    padding: 0em 2em 0em 2em;
+}
+
+.elementor-3009 .elementor-element.elementor-element-2fdecf3c:not(.elementor-motion-effects-element-type-background), .elementor-3009 .elementor-element.elementor-element-2fdecf3c > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #226113;
+}
+
+.elementor-3009 .elementor-element.elementor-element-2fdecf3c {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 0px 15px 0px 15px;
+}
+
+.elementor-3009 .elementor-element.elementor-element-2fdecf3c > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-3009 .elementor-element.elementor-element-3ffb1ea8 {
+    --image-transition-duration: 800ms;
+    --overlay-transition-duration: 800ms;
+    --content-text-align: center;
+    --content-padding: 20px;
+    --content-transition-duration: 800ms;
+    --content-transition-delay: 800ms;
+}
+
+.elementor-3009 .elementor-element.elementor-element-3ffb1ea8 .e-gallery-item:hover .elementor-gallery-item__overlay, .elementor-3009 .elementor-element.elementor-element-3ffb1ea8 .e-gallery-item:focus .elementor-gallery-item__overlay {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.elementor-3009 .elementor-element.elementor-element-3ffb1ea8 .elementor-gallery-item__title {
+    font-family: var( --e-global-typography-92b0a2d-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-92b0a2d-font-size );
+    font-weight: var( --e-global-typography-92b0a2d-font-weight );
+    line-height: var( --e-global-typography-92b0a2d-line-height );
+}
+
+:root {
+    --smooth-title-display: none;
+}
+
+@media(max-width: 1024px) {
+    .elementor-3009 .elementor-element.elementor-element-4fce4d70 {
+        margin-top:-165px;
+        margin-bottom: 0px;
+        padding: 242px 15px 160px 15px;
+    }
+
+    .elementor-3009 .elementor-element.elementor-element-3e6abc8 > .elementor-widget-container {
+        margin: 0px 0px 5px 0px;
+    }
+
+    .elementor-3009 .elementor-element.elementor-element-2fdecf3c {
+        margin-top: 45px;
+        margin-bottom: 100px;
+    }
+
+    .elementor-3009 .elementor-element.elementor-element-3ffb1ea8 .elementor-gallery-item__title {
+        font-size: var( --e-global-typography-92b0a2d-font-size );
+        line-height: var( --e-global-typography-92b0a2d-line-height );
+    }
+}
+
+@media(max-width: 767px) {
+    .elementor-3009 .elementor-element.elementor-element-4fce4d70 {
+        margin-top:-265px;
+        margin-bottom: 0px;
+        padding: 344px 15px 160px 15px;
+    }
+
+    .elementor-3009 .elementor-element.elementor-element-2fdecf3c {
+        margin-top: 10px;
+        margin-bottom: 80px;
+    }
+
+    .elementor-3009 .elementor-element.elementor-element-3ffb1ea8 .elementor-gallery-item__title {
+        font-size: var( --e-global-typography-92b0a2d-font-size );
+        line-height: var( --e-global-typography-92b0a2d-line-height );
+    }
+}
