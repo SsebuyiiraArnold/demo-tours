@@ -1060,7 +1060,7 @@
                             d = P.getLoadObj(t, l),
                             P.sA(u[s], "src-rs-ref", l),
                             n.loaded === C && d !== C && d.progress && "loaded" == d.progress && ("img" == d.type ? (u[s].src.slice(u[s].src.length - 10) !== d.src.slice(d.src.length - 10) && (u[s].src = d.src),
-                            n.slidebgimage && (-1 == d.src.indexOf("images/transparent.png") && -1 == d.src.indexOf("assets/transparent.png") || n.bgcolor === C || n.bgcolor !== C && "transparent" !== n.bgcolor && (d.bgColor = !0,
+                            n.slidebgimage && (-1 == d.src.indexOf("Images/transparent.png") && -1 == d.src.indexOf("assets/transparent.png") || n.bgcolor === C || n.bgcolor !== C && "transparent" !== n.bgcolor && (d.bgColor = !0,
                             d.useBGColor = !0),
                             P.sA(o[a], "owidth", d.width),
                             P.sA(o[a], "oheight", d.height),
