@@ -8,11 +8,9 @@
         options: njt_wa.options,
         urlSettings: njt_wa_global.urlSettings
       });
-      // Fix WooMart Theme
       const wa_root_wrap = document.querySelector('#wa').closest('a')
       if (wa_root_wrap && !wa_root_wrap.getAttribute('href')) wa_root_wrap.href="#"
   
-      // Create a custom event
       document.body.dispatchEvent(new CustomEvent('njt-whatsapp-popup-init', {bubbles: true, detail: {
         accounts: njt_wa.accounts,
         timezone: njt_wa_global.timezone,

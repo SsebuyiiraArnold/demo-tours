@@ -1,59 +1,109 @@
-const galleryItems = document.querySelectorAll(".gallery-item");
-const viewer = document.querySelector(".image-viewer");
-const viewerImage = document.querySelector(".viewer-image");
-const imageNumber = document.querySelector(".image-number");
-const closeBtn = document.querySelector(".close-btn");
-const zoomBtn = document.querySelector(".zoom-btn");
-const prevBtn = document.querySelector(".prev-btn");
-const nextBtn = document.querySelector(".next-btn");
-const shareBtn = document.querySelector(".share-btn");
-const shareMenu = document.querySelector(".share-menu");
-const downloadBtn = document.querySelector(".download-btn");
+const galleryItems = document.querySelectorAll('.gallery-item img');
+const fullscreenViewer = document.getElementById('fullscreenViewer');
+const fullscreenImage = document.getElementById('fullscreenImage');
+const imageCounter = document.getElementById('imageCounter');
+const closeButton = document.getElementById('closeButton');
+const zoomButton = document.getElementById('zoomButton');
+const downloadButton = document.getElementById('downloadButton');
+const prevButton = document.getElementById('prevButton');
+const nextButton = document.getElementById('nextButton');
+const shareFacebook = document.getElementById('shareFacebook');
+const shareWhatsapp = document.getElementById('shareWhatsapp');
+const shareInstagram = document.getElementById('shareInstagram');
 
 let currentIndex = 0;
 let isZoomed = false;
 
-// Open Viewer
+// Open fullscreen viewer
 galleryItems.forEach((item, index) => {
-    item.addEventListener("click", () => {
+    item.addEventListener('click', () => {
         currentIndex = index;
-        showImage();
-        viewer.style.display = "flex";
+        openFullscreenViewer(item.src, index + 1);
     });
 });
 
-// Close Viewer
-closeBtn.addEventListener("click", () => {
-    viewer.style.display = "none";
+// Close the fullscreen viewer
+closeButton.addEventListener('click', () => {
+    fullscreenViewer.classList.remove('active');
+    resetZoom();
 });
 
-// Show Image
-function showImage() {
-    const selectedItem = galleryItems[currentIndex].querySelector("img");
-    viewerImage.src = selectedItem.src;
-    imageNumber.textContent = `${currentIndex + 1}/${galleryItems.length}`;
-    downloadBtn.href = selectedItem.src;
+// Navigate to the previous image
+prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+    updateFullscreenImage();
+});
+
+// Navigate to the next image
+nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % galleryItems.length;
+    updateFullscreenImage();
+});
+
+// Toggle zoom on button click
+zoomButton.addEventListener('click', toggleZoom);
+
+// Toggle zoom on image click
+fullscreenImage.addEventListener('click', toggleZoom);
+
+// Share on Facebook
+shareFacebook.addEventListener('click', () => {
+    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullscreenImage.src)}`;
+    window.open(facebookUrl, '_blank');
+});
+
+// Share on WhatsApp
+shareWhatsapp.addEventListener('click', () => {
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent('Check out this image: ' + fullscreenImage.src)}`;
+    window.open(whatsappUrl, '_blank');
+});
+
+// Share on Instagram (Direct URL sharing not supported)
+shareInstagram.addEventListener('click', () => {
+    alert('Instagram does not support direct URL sharing. You can download the image and upload it manually.');
+});
+
+// Download the current image
+downloadButton.addEventListener('click', downloadCurrentImage);
+
+function openFullscreenViewer(src, index) {
+    fullscreenImage.src = src;
+    imageCounter.textContent = `${index} / ${galleryItems.length}`;
+    downloadButton.setAttribute('download', `image-${index}.jpg`);
+    downloadButton.setAttribute('href', src);
+    fullscreenViewer.classList.add('active');
+    resetZoom();
 }
 
-// Next and Previous
-nextBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % galleryItems.length;
-    showImage();
-});
+function updateFullscreenImage() {
+    const currentImage = galleryItems[currentIndex];
+    fullscreenImage.src = currentImage.src;
+    imageCounter.textContent = `${currentIndex + 1} / ${galleryItems.length}`;
+    downloadButton.setAttribute('download', `image-${currentIndex + 1}.jpg`);
+    downloadButton.setAttribute('href', currentImage.src);
+    resetZoom();
+}
 
-prevBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
-    showImage();
-});
-
-// Zoom
-zoomBtn.addEventListener("click", () => {
+function toggleZoom() {
     isZoomed = !isZoomed;
-    viewerImage.style.transform = isZoomed ? "scale(1.5)" : "scale(1)";
-    viewerImage.style.transition = "transform 0.3s";
-});
+    if (isZoomed) {
+        fullscreenImage.classList.add('zoomed');
+    } else {
+        fullscreenImage.classList.remove('zoomed');
+    }
+}
 
-// Share Dropdown
-shareBtn.addEventListener("click", () => {
-    shareMenu.style.display = shareMenu.style.display === "block" ? "none" : "block";
-});
+function resetZoom() {
+    isZoomed = false;
+    fullscreenImage.classList.remove('zoomed');
+}
+
+function downloadCurrentImage() {
+    const anchor = document.createElement('a');
+    anchor.href = fullscreenImage.src;
+    anchor.download = `image-${currentIndex + 1}.jpg`;
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+}
+

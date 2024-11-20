@@ -27,10 +27,11 @@
     text-align: center;
 }
 
-.elementor-232 .elementor-element.elementor-element-4827faa9 .elementor-heading-title {
+.elementor-232 .elementor-element.elementor-element-4827faa9 .elementor-heading-title .nold {
     color: var(--e-global-color-21bfb04);
     z-index: 999;
     margin-top: 90px;
+    display: block;
 }
 
 .elementor-232 .elementor-element.elementor-element-1714156:not(.elementor-motion-effects-element-type-background),
