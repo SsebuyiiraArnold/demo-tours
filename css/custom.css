@@ -1,8 +1,17 @@
 .zuula{
 	text-decoration: none;
+	color: #3F444B;
+}
+.genda{
+	/* text-decoration: none; */
+	color: black;
+	font-weight: bold;
 }
 
-
+ul{
+	text-decoration: none;
+	list-style-type: none;
+}
 body{
 	margin: 0;
 }
