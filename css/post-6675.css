@@ -278,6 +278,7 @@ body:not(.rtl) .elementor-6675 .elementor-element.elementor-element-5dfcc84 .ele
 .elementor-6675 .elementor-element.elementor-element-5f5003c9:not(.elementor-motion-effects-element-type-background),
 .elementor-6675 .elementor-element.elementor-element-5f5003c9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 	background-color: #043612;
+	z-index: 999;
 }
 
 .elementor-6675 .elementor-element.elementor-element-5f5003c9 {
@@ -735,6 +736,6 @@ body:not(.rtl) .elementor-6675 .elementor-element.elementor-element-5dfcc84 .ele
 		text-align:center;
 		right:15px;
 		top:80px;
-		position:fixed;
+		float: right;
 	}
 }
