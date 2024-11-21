@@ -208,24 +208,37 @@ body:not(.rtl) .elementor-8056 .elementor-element.elementor-element-5fc4f57 .ele
 #elementor-popup-modal-8056 .dialog-widget-content {
 	animation-duration: 0.5s;
 	background-color: #383838;
+	display: inline-block;
 	box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
 }
 
-#elementor-popup-modal-8056 .dialog-message {
-	width: 360px;
+#elementor-popup-modal-8056  {
+	width: 50vh;
 	height: 100vh;
 	align-items: flex-end;
+	/* left: 65%; */
+	
+}
+.dialog-message{
+	top: 0;
+	right: 0;
+	position: fixed;
+	background-color: #383838;
 }
 
 #elementor-popup-modal-8056 {
-	justify-content: flex-end;
-	align-items: center;
-	pointer-events: all;
-	background-color: rgba(0, 0, 0, .8);
+	/* justify-content: flex-end; */
+	right: 0;
+	width: 100vh;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 #elementor-popup-modal-8056 .dialog-close-button {
 	display: flex;
+	top: 0;
+	right: 0;
+	position: fixed;
 }
 
 #elementor-popup-modal-8056 .dialog-close-button i {
@@ -248,14 +261,14 @@ body:not(.rtl) .elementor-8056 .elementor-element.elementor-element-5fc4f57 .ele
 
 @media(max-width:767px) {
 	.elementor-8056 .elementor-element.elementor-element-400b448 {
-		margin-top: -13em;
-		margin-bottom: 3em;
-		padding: 01rem 01rem 01rem 1rem;
+		margin-top: 1em;
+		margin-bottom: 0em;
+		padding: 0rem 0rem 0rem 1rem;
 	}
 
 	.elementor-8056 .elementor-element.elementor-element-3f3b1d0>.elementor-element-populated {
 		border-width: 1px 1px 1px 1px;
-        margin: 1% 03% 15% 0%;
+        margin: 1% 05% 15% 0%;
         --e-column-margin-right: 12%;
         --e-column-margin-left: 0%;
         padding: 10px 10px 10px 10px;
