@@ -1,0 +1,11 @@
+# robots.txt for Trion Safaris
+User-agent: Googlebot
+Disallow: /private-directory/
+
+# Allow all crawlers access to the site
+User-agent: *
+Disallow: /cgi-bin/
+
+# Specify the sitemap location
+Sitemap: https://www.trionsafaris.com/sitemap.xml
+Sitemap: https://www.trionsafaris.com/sitemap.xml.gz
