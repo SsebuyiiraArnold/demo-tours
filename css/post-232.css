@@ -4,12 +4,18 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 1;
 }
 
 .elementor-232 .elementor-element.elementor-element-5427ef6a>.elementor-background-overlay {
     background-color: var(--e-global-color-e5e9561);
     opacity: 0.65;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.boomer{
+    color: white;
+    width: auto;
+    opacity: 1;
 }
 
 .elementor-232 .elementor-element.elementor-element-5427ef6a {
